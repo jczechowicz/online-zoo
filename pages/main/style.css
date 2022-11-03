@@ -43,7 +43,7 @@ h1 {
     width: 14%;
     left: 12.5%;
     top: 44%;
-    background-image: url(./assets/icons/bamboo.svg);
+    background-image: url(./online-zoo/assets/icons/bamboo.svg);
     background-repeat: no-repeat;
     color: #FFFFFF;
 }
@@ -117,7 +117,7 @@ main {
     margin: 0 auto;
     max-width: 100%;
     background-color:#FFFFFF;
-    background-image: url(./assets/images/Pandagiant-panda-bgd.jpg);
+    background-image: url(./online-zoo/assets/images/Pandagiant-panda-bgd.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     height: 100%;
@@ -180,7 +180,7 @@ main {
     max-width: 1160px;
     max-width: 100%;
     margin: auto;
-    background-image: url(./assets/images/flower_foto1.jpg);
+    background-image: url(./online-zoo/assets/images/flower_foto1.jpg);
     background-repeat: no-repeat;
     background-position: right 11%;
     padding-bottom: 10.1%;
@@ -189,7 +189,7 @@ main {
 
 .backstage-photo {
     margin-top: 3.5%;
-    background-image: url(./assets/images/bamboo-capbackstage_photo.jpg);
+    background-image: url(./online-zoo/assets/images/bamboo-capbackstage_photo.jpg);
     height: 403px;
     width: 250%;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ main {
 .pets-wrapper {
     max-width: 100%;
     z-index: 1;
-    background-image: url(./assets/images/palm_foto.jpg), url(./assets/images/strelitzia\ 1.jpg);
+    background-image: url(./online-zoo/assets/images/palm_foto.jpg), url(./online-zoo/assets/images/strelitzia\ 1.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: left bottom, right bottom;
     max-width: 1160px;
@@ -269,32 +269,32 @@ main {
 }
 
 .panda {
-    background-image: url(./assets/images/panda.jpg);
+    background-image: url(./online-zoo/assets/images/panda.jpg);
     background-repeat: no-repeat;
 }
 
 .eagle {
-    background-image: url(./assets/images/eagle.jpg);
+    background-image: url(./online-zoo/assets/images/eagle.jpg);
     background-repeat: no-repeat;
 }
 
 .gorilla {
-    background-image: url(./assets/images/gorilla.jpg);
+    background-image: url(./online-zoo/assets/images/gorilla.jpg);
     background-repeat: no-repeat;
 }
 
 .sloth {
-    background-image: url(./assets/images/sloth.jpg);
+    background-image: url(./online-zoo/assets/images/sloth.jpg);
     background-repeat: no-repeat;
 }
 
 .cheetah {
-    background-image: url(./assets/images/cheetah.jpg);
+    background-image: url(./online-zoo/assets/images/cheetah.jpg);
     background-repeat: no-repeat;
 }
 
 .penguin {
-    background-image: url(./assets/images/penguin.jpg);
+    background-image: url(./online-zoo/assets/images/penguin.jpg);
     background-repeat: no-repeat;
 }
 
@@ -332,7 +332,7 @@ main {
 .panda-herb::before, .gorilla-herb::before, .sloth-herb::before {
     content: '';
     position: absolute;
-    background-image: url(./assets/icons/banana-bamboo_icon.svg);
+    background-image: url(./online-zoo/assets/icons/banana-bamboo_icon.svg);
     background-repeat: no-repeat;
     width: 10%;
     height: 60%;
@@ -347,7 +347,7 @@ main {
 .eagle-carn::before, .cheetah-carn::before, .penguin-carn::before {
     content: '';
     position: absolute;
-    background-image: url(./assets/icons/meet-fish_icon.svg);
+    background-image: url(./online-zoo/assets/icons/meet-fish_icon.svg);
     background-repeat: no-repeat;
     width: 15%;
     height: 60%;
@@ -415,7 +415,7 @@ main {
 .slider-btn-right::before {
     content: '';
     position: absolute;
-    background-image: url(./assets/icons/arrow_right.svg) ;
+    background-image: url(./online-zoo/assets/icons/arrow_right.svg) ;
     background-repeat: no-repeat;
     width: 30%;
     height: 20%;
@@ -438,7 +438,7 @@ main {
 .slider-btn-left::before {
     content: '';
     position: absolute;
-    background-image: url(./assets/icons/arrow_left.svg) ;
+    background-image: url(./online-zoo/assets/icons/arrow_left.svg) ;
     background-repeat: no-repeat;
     width: 30%;
     height: 20%;
@@ -553,7 +553,7 @@ main {
     background: #FFFFFF;
     border-radius: 5px;
     border: 1px solid rgb(239, 116, 63);
-    background-image: url(./assets/icons/pay.svg);
+    background-image: url(./online-zoo/assets/icons/pay.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -566,7 +566,7 @@ main {
     background: #FFFFFF;
     border-radius: 5px;
     border: 1px solid rgb(239, 116, 63);
-    background-image: url(./assets/icons/zoo.svg);
+    background-image: url(./online-zoo/assets/icons/zoo.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -579,7 +579,7 @@ main {
     background: #FFFFFF;
     border-radius: 5px;
     border: 1px solid rgb(239, 116, 63);
-    background-image: url(./assets/icons/monkeymonkey.svg);
+    background-image: url(./online-zoo/assets/icons/monkeymonkey.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -597,7 +597,7 @@ main {
 .arrow {
     width: 69px;
     height: 158px;
-    background-image: url(./assets/icons/Vector2.svg);
+    background-image: url(./online-zoo/assets/icons/Vector2.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -626,7 +626,7 @@ main {
     width: 100%;
     padding-top: 140px;
     padding-bottom: 181px;
-    background-image: url(./assets/images/leav_foto.jpg);
+    background-image: url(./online-zoo/assets/images/leav_foto.jpg);
     background-repeat: no-repeat;
     background-position: right 126%;
     max-width: 1160px;
