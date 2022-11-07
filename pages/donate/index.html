@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE ZOO</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400;1,700;1,900&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="guide">
+                <div class="h1-logo">
+                    <a class="logo" href="https://jczechowicz.github.io/online-zoo/pages/main/index.html"><h1>PetStory Online</h1></a>
+                </div>
+                <nav class="navbar-header">
+                    <ul class="nav-ul">
+                        <li class="nav-li">
+                            <a class="nav-anchor" href="https://jczechowicz.github.io/online-zoo/index.html">About</a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-anchor" href="#">Map</a>
+                        </li>
+                        <li class="nav-li"></li>                        
+                            <a class="nav-anchor" href="#">Zoos</a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-anchor" style="color: orange;" href="./index.html">Donate</a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-anchor" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="designed-by">
+                        <a style="color:white;" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1" target="_blank">Designed by ©</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+                <div class="panda-background"></div>
+            <div class="donation-wrapper">      
+                <div class="donation-box">
+                    <div class="donation-info">
+                        <h2>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h2>
+                        <p>Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+                        <a href="#">Donation Information</a>
+                    </div>
+                    <div class="pick-feed-friend">
+                        <div class="header-pff">
+                            <h2>Pick and feed a friend</h2>
+                            <p>We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                        </div>
+                        <div class="images-pff">
+                            <div class="images-pff-txt">
+                                <div class="animals-amount">4</div>
+                                <p>Panda diet for the day.</p>
+                            </div>
+                            <div class="x-icon"><img src="./assets/x_icon.png" alt="x-icon"></div>
+                            <div class="panda-img">
+                                <img src="./assets/panda_widget1.png" alt="panda">
+                            </div>
+                        </div>
+                        <div class="pay-amount">
+                            <p class="pay-amount-txt">Amount</p>
+                            <div class="pay-scale">
+                                <div class="pay-bgd">
+                                    <div class="center-line"></div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="pb-item">
+                                        <input class="pb-input" type="radio" id="5000" value="5000" name="radio-group">
+                                      <label class="pb-label" for="5000">$5000</label>
+                                    </div>
+                                    <div class="pb-item">
+                                        <input class="pb-input" type="radio" id="2000" value="2000" name="radio-group">
+                                      <label class="pb-label" for="2000">$2000</label>
+                                    </div>
+                                    <div class="pb-item">
+                                        <input class="pb-input" type="radio" id="1000" value="1000" name="radio-group">
+                                        <label class="pb-label" for="1000">$1000</label>
+                                    </div>
+                                    <div class="pb-item">
+                                        <input class="pb-input" type="radio" id="500" value="500" name="radio-group">
+                                      <label class="pb-label" for="500">$500</label>
+                                    </div>
+                                    <div class="pb-item">
+                                        <input class="pb-input" type="radio" id="250" value="250" name="radio-group">
+                                      <label class="pb-label" for="250">$250</label>
+                                    </div>
+                                    <div class="pb-item">
+                                        <input class="pb-input" type="radio" id="100" value="100" name="radio-group">
+                                      <label class="pb-label" for="100">$100</label>
+                                    </div>
+                                    <div class="pb-item">
+                                        <input class="pb-input" type="radio" id="50" value="50" name="radio-group">
+                                      <label class="pb-label" for="50">$50</label>
+                                    </div>
+                                    <div class="pb-item">
+                                        <input class="pb-input" type="radio" id="25" value="25" name="radio-group">
+                                      <label class="pb-label" for="25">$25</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pay-custom">
+                                <input class="custom-input" type="number" max="9999"oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                type = "number" maxlength = "4" placeholder="Another amount">
+                                <div class="custom-period-group">
+                                  <div class="custom-period">
+                                        <input type="radio" name="custom-group" id="monthly">
+                                        <label for="monthly">Monthly</label>
+                                    </div>
+                                    <div class="custom-period">
+                                        <input type="radio" name="custom-group" id="once" checked>
+                                        <label for="once">Once</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="pff-btn">Feed a friend now</button>
+                            <p class="pff-btn-txt">Share with your friends on social networks </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <a class="footer-logo" href="https://jczechowicz.github.io/online-zoo/index.html"><img src="./assets/logo.png" alt="link to the main page"></a>
+                    <button class="footer-btn">donate for volunteers</button>
+                    <div class="footer-links">
+                        <a class="fb-link" href="https://www.facebook.com/"><img src="./assets/facebook.svg" alt="facebook link"></a>
+                        <a class="twitter_link" href="https://twitter.com/"><img src="./assets/twitter.svg" alt="twitter link"></a>
+                        <a class="insta-link" href="https://www.instagram.com/"><img src="./assets/instagram.svg" alt="instagram link"></a>
+                        <a class="youtube-link" href="https://www.youtube.com/"><img src="./assets/youtube.svg" alt="youtube link"></a>
+                    </div>
+                </div>
+                <div class="footer-middle">
+                    <nav class="nav-footer">
+                        <ul class="nav-ul">
+                            <li class="nav-li">
+                                <a class="nav-anchor" style="color: orange;" href="https://jczechowicz.github.io/online-zoo/index.html">About</a>
+                            </li>
+                            <li class="nav-li">
+                                <a class="nav-anchor" href="#">Map</a>
+                            </li>
+                            <li class="nav-li">
+                                <a class="nav-anchor" href="#">Zoos</a>
+                            </li>
+                            <li class="nav-li">
+                                <a class="nav-anchor" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-right">
+                    <div class="subscribe">Subscribe to our news</div>
+                    <form class="submit-form">
+                        <input class="footer-input" type="email" placeholder="Enter your email" required>
+                        <button type='submit' class="subscribe-btn">Submit</button>
+                    </form>
+                    <div class="footer-designed-by">
+                        <p>Designed by Alisa Samborskaya <br> ©RSSchool & ©Yem Digital 2021</p>
+                    </div>
+                </div>
+        </div>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
