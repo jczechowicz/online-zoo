@@ -684,3 +684,1341 @@ footer {
     line-height: 188%;
     color: #ffffff94;
 }
+
+
+@media all and (max-width: 99.9375em){
+    header {
+        z-index: 2;
+    }
+
+    .designed-by {
+        margin-left: 13.8%;
+    }
+
+}
+
+@media all and (max-width: 82.5em) and (min-width: 62.563em) {
+    .navbar-header {
+        width: 71%;
+    }
+
+    .designed-by {
+        margin-left: auto;
+    }
+    }
+
+@media all and (max-width: 1000px) {
+header {
+    z-index: 2;
+}
+.h1-logo {
+    margin-left: 1.85em;
+}
+
+.navbar-header {
+    width: 33.89em;
+}
+
+.nav-ul {
+    margin-left: 1.4em;
+}
+
+.designed-by {
+    margin-left: 13.13em;
+}
+
+.panda-background {
+    background-image: url(.assets/images/panda-donate-small.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 0.25em;
+    background-size: auto;
+    min-height: 394px;
+}
+
+.donation-wrapper {
+    box-sizing: border-box;
+    padding: 2.5em 2em 1.9em 2em;
+}
+
+.donation-info {
+    margin-bottom: 2.5em;
+}
+
+.donation-info h2 {
+    width: 81%;
+    margin-bottom: 0.85em;
+}
+
+.header-pff h2 {
+    margin-bottom: 0.7rem;
+}
+
+.pick-feed-friend {
+    padding: 20px 42px 47px 44px;
+}
+
+.images-pff {
+    width: 98%;
+}
+
+.pay-amount-txt {
+    margin: 0px 0 17px 18px;
+}
+
+.pay-bgd {
+    width: 95.5%;
+    margin-left: 1em;
+}
+
+.pay-scale {
+    width: 98%;
+    margin-bottom: 50px;
+    margin-left: 3.6%;
+}
+
+.pb-item {
+    width: 6.7%;
+    margin-left: -13px;
+}
+
+.custom-input {
+    width: 16.9em;
+    background-position: 95% center;
+}
+
+.custom-period {
+    margin-left: -48px;
+}
+
+.pff-btn {
+    margin-left: 32.86%;
+}
+
+.pff-btn-txt {
+    margin-left: 32.3%;
+}
+
+.footer-container {
+    margin-left: 1.9em;
+    max-width: 1000px;
+    width: 96%;
+}
+
+.footer-links {
+    row-gap: 5px;
+    width: 40%;
+    line-height: 132%;
+}
+
+.footer-middle {
+    margin-top: 19.6em;
+    margin-left: -4.5em;
+    width: 45.35%;
+}
+
+.nav-footer {
+    width: 92%;
+}
+
+.nav-footer ul {
+    margin-left: 2.4em;
+}
+
+.footer-right {
+    margin-left: -7.5em;
+    width: 37.5%;
+}
+
+.footer-designed-by {
+    margin-top: 13.25em;
+    margin-left: 10.6em;
+}
+}
+
+@media all and (max-width: 999px) and (min-width: 641px) {
+
+    header {
+        height: 2.15em;
+    }
+
+    .guide {
+        margin: 0 auto;
+        max-width: 640px;
+    }
+
+    .navbar-header, .designed-by {
+        display: none;
+    }
+
+    .h1-logo {
+        border: none;
+        margin-left: 0.27em;
+    }
+
+    .h1-logo::before {
+        height: 24%;
+        width: 14%;
+        left: 23.5%;
+        top: 48%;
+        background-size: 80%;
+    }
+
+    h1 {
+        font-size: 0.75em;
+    }
+
+    .burger-menu {
+        position: relative;
+        margin-left: 32.4em;
+        margin-top: -2px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        z-index: 2;
+        height: 2px;
+        width: 1.13em;
+        background-color: rgb(255, 255, 255);
+        transition: all ease 0.4s;
+        cursor: pointer;
+    }
+
+    .burger-menu::before {
+        position: absolute;
+        content: '';
+        top: -4px;
+        left: 0px;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+    }
+
+    .burger-menu::after {
+        position: absolute;
+        content: '';
+        top: 4px;
+        left: 0px;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+    }
+
+    .burger-menu.active {
+        position: relative;
+        margin-left: 32.4em;
+        margin-top: 11px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        z-index: 2;
+        height: 2px;
+        width: 1.13em;
+        background-color: rgba(255, 0, 0, 0);
+        transition: all ease 0.4s;
+    }
+
+    .burger-menu.active::before {
+        top: 5.5px;
+        transform: rotate(-45deg) translate(0px, -50%);
+        background-color: red;
+    }
+
+    .burger-menu.active::after {
+        transform: rotate(45deg) translate(0px, 50%);
+        background-color: red;
+    }
+
+    .panda-background {
+        background-image: url(.assets/images/panda-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position-y: 0.25em;
+        background-size: cover;
+        min-height: 338px;
+    }
+
+    .pff-btn {
+        margin: 0 auto;
+        margin-bottom: 29px;
+        height: 3.3em;
+    }
+
+    .pff-btn-txt {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer-wrapper {
+        padding-top: 0.8em;
+    }
+
+    .footer-container {
+        margin: 0 auto;
+        max-width: 640px;
+        width: 100%;
+    }
+
+    .footer-btn {
+        margin-top: 1.7em;
+    }
+
+    .footer-max {
+        display: none;
+    }
+
+    .footer-min {
+        display: flex;
+        column-gap: 3.5em;
+    }
+
+    .footer-min-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-min-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .nav-footer {
+        margin-top: 5em;
+        margin-left: -2.4em;
+        width: 105%;
+    }
+
+    .nav-footer ul {
+        margin-left: 0;
+    }
+
+    .footer-links {
+        row-gap: 0.85em;
+        margin-top: 0.125em;
+        width: 10%;
+    }
+
+    .fcb-link, .twitter-link, .insta-link, .youtube-link {
+        position: relative;
+    }
+
+    .footer-links a:hover {
+        transform: scale(1.1);
+        transition: all ease-in 0.2s;
+        filter: opacity(5) brightness(1) contrast(1.5);
+    }
+
+    .fcb-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(.assets/icons/facebook-icon.png);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: 9px;
+    }
+
+    .twitter-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(.assets/icons/twitter-icon.png);
+        background-repeat: no-repeat;
+        top: 6px;
+        left: 6px;
+    }
+
+    .insta-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(.assets/icons/instagram-icon.png);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: 5px;
+    }
+
+    .youtube-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1.2em;
+        background-image: url(.assets/icons/youtube-icon.png);
+        background-repeat: no-repeat;
+        top: 6.5px;
+        left: 4px;
+    }
+
+    .footer-designed-by {
+        margin-left: 1.09em;
+        margin-top: 2em;
+    }
+
+    .footer-designed-by p {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 640px) {
+    header {
+        height: 2.15em;
+        top: 0;
+        position: fixed;
+        width: 100%;
+    }
+
+
+    .navbar-header, .designed-by {
+        display: none;
+    }
+
+    .h1-logo {
+        border: none;
+        margin-left: 0.27em;
+    }
+
+    .h1-logo::before {
+        height: 24%;
+        width: 14%;
+        left: 23.5%;
+        top: 48%;
+        background-size: 80%;
+    }
+
+    h1 {
+        font-size: 0.75em;
+    }
+
+    .burger-menu {
+        position: relative;
+        margin-left: 32.4em;
+        margin-top: -2px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        z-index: 2;
+        height: 2px;
+        width: 1.13em;
+        background-color: rgb(255, 255, 255);
+        transition: all ease 0.4s;
+        cursor: pointer;
+    }
+
+    .burger-menu::before {
+        position: absolute;
+        content: '';
+        top: -4px;
+        left: 0px;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+    }
+
+    .burger-menu::after {
+        position: absolute;
+        content: '';
+        top: 4px;
+        left: 0px;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+    }
+
+    .burger-menu.active {
+        position: relative;
+        margin-left: 32.4em;
+        margin-top: 11px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        z-index: 2;
+        height: 2px;
+        width: 1.13em;
+        background-color: rgba(255, 0, 0, 0);
+        transition: all ease 0.4s;
+    }
+
+    .burger-menu.active::before {
+        top: 5.5px;
+        transform: rotate(-45deg) translate(0px, -50%);
+        background-color: red;
+    }
+
+    .burger-menu.active::after {
+        transform: rotate(45deg) translate(0px, 50%);
+        background-color: red;
+    }
+
+
+    main {
+        margin-top: 34px;
+    }
+
+    .panda-background {
+        background-image: url(.assets/images/panda-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position-y: 0.25em;
+        background-size: auto;
+        min-height: 338px;
+
+    }
+
+    .donation-wrapper {
+            padding: 1.8em 1.2em 2.8em 1.2em;
+    }
+
+    .pick-feed-friend {
+        padding: 30px 42px 32px 44px;
+    }
+
+    .donation-info description h2 {
+        width: 100%;
+        margin-bottom: 0.85em;
+        font-size: 1.5em;
+        line-height: 128%;
+    }
+
+    .donation-info description p {
+        margin-bottom: 30px;
+    }
+
+    .donation-info description {
+        margin-bottom: 1.9em;
+    }
+
+    .header-pff h2 {
+        margin-bottom: 0.45em;
+        margin-left: 0.01em;
+    }
+
+    .header-pff p {
+        text-align: center;
+    }
+
+    .header-pff {
+        margin-bottom: 49px;
+    }
+
+    .images-pff {
+        padding-right: 0;
+        width: 101%;
+        margin-bottom: 2.3em;
+    }
+
+    .images-pff-txt {
+            margin-bottom: 54px;
+            margin-left:-22px;
+    }
+
+    .images-pff-txt p {
+            margin: 9px 0 0;
+    }
+
+    .pay-bgd {
+        width: 116.5%;
+        margin-left: -2.7em;
+    }
+
+    .center-line {
+        width: 88%;
+    }
+
+    .pay-amount-txt {
+        margin: 0px 0 7px -33px;
+    }
+
+    .pay-scale {
+        width: 108%;
+        margin-bottom: 50px;
+        margin-left: -1.4%;
+    }
+
+    .pb-item label {
+        margin-left: -21px;
+    }
+
+    .custom-input {
+        width: 35%;
+        height: 2.6em;
+        margin-bottom: 2.1em;
+        background-position: 93% center;
+    }
+
+    .custom-period {
+        margin-left: -7.1em;
+    }
+
+    .pff-btn {
+        margin-left: 21%;
+        height: 3.3em;
+    }
+
+    .pff-btn-txt {
+        margin-left: 20.6%;
+    }
+
+    .footer-wrapper {
+        padding-top: 0.8em;
+    }
+
+    .footer-container {
+        margin-left: 1.2em;
+        max-width: 640px;
+        width: 96%;
+    }
+
+    .footer-btn {
+        margin-top: 1.7em;
+    }
+
+    .footer-max {
+        display: none;
+    }
+
+    .footer-min {
+        display: flex;
+        column-gap: 3.5em;
+    }
+
+    .footer-min-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-min-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .nav-footer {
+        margin-top: 5em;
+        margin-left: -2.4em;
+        width: 105%;
+    }
+
+    .nav-footer ul {
+        margin-left: 0;
+    }
+
+    .footer-links {
+        row-gap: 0.85em;
+        margin-top: 0.125em;
+        width: 10%;
+    }
+
+    .fcb-link, .twitter-link, .insta-link, .youtube-link {
+        position: relative;
+    }
+
+    .footer-links a:hover {
+        transform: scale(1.1);
+        transition: all ease-in 0.2s;
+        filter: opacity(5) brightness(1) contrast(1.5);
+    }
+
+    .fcb-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(.assets/icons/facebook-icon.png);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: 9px;
+    }
+
+    .twitter-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(.assets/icons/twitter-icon.png);
+        background-repeat: no-repeat;
+        top: 6px;
+        left: 6px;
+    }
+
+    .insta-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(.assets/icons/instagram-icon.png);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: 5px;
+    }
+
+    .youtube-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1.2em;
+        background-image: url(.assets/icons/youtube-icon.png);
+        background-repeat: no-repeat;
+        top: 6.5px;
+        left: 4px;
+    }
+
+    .footer-designed-by {
+        margin-left: 1.09em;
+        margin-top: 2em;
+    }
+
+    .footer-designed-by p {
+        margin: 0;
+    }
+
+}
+@media all and (min-width: 321px) and (max-width: 639px) {
+
+    header {
+        height: 2.1em;
+    }
+
+    .guide {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .h1-logo {
+        margin-left: -0.4em;
+    }
+
+    .burger-menu {
+        position: relative;
+        margin-left: 13.7em;
+        margin-top: -2px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        z-index: 2;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+        cursor: pointer;
+    }
+    .burger-menu::before {
+        position: absolute;
+        content: '';
+        top: -4px;
+        left: 0px;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+    }
+    .burger-menu::after {
+        position: absolute;
+        content: '';
+        top: 4px;
+        left: 0px;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+    }
+
+    .burger-menu.active {
+        position: relative;
+        margin-left: 13.7em;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        z-index: 2;
+        height: 2px;
+        width: 1.13em;
+        background-color: rgba(255, 0, 0, 0);
+        transition: all ease 0.4s;
+    }
+    .burger-menu.active::before {
+        top: 5.8px;
+        transform: rotate(-45deg) translate(0px, -50%);
+        background-color: red;
+    }
+
+    .burger-menu.active::after {
+        transform: rotate(45deg) translate(0px, 50%);
+        background-color: red;
+    }
+
+
+    .menu-open {
+        display: none;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        max-width: 320px;
+        width: 100%;
+        height: 329px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.875);
+        box-shadow: 0px 0px 10px 100vh #000000ab;
+        transition: all ease 0.4s;
+    }
+
+    main {
+        margin-top: 34px;
+    }
+
+    .panda-background {
+        background-image: url(.assets/images/panda-donate-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 190px;
+    }
+
+    .donation-wrapper {
+        padding: 2.03em 0.6em 1.25em 1.2em;
+    }
+
+    .pick-feed-friend {
+        padding: 20px 34px 21px 34px;
+    }
+
+    .donation-box {
+       margin: 0 auto;
+       max-width: 320px;
+    }
+
+    .donation-info description {
+        margin-bottom: 1.8em;
+    }
+
+    .donation-info description h2 {
+        line-height: 119%;
+    }
+
+    .donation-info description p {
+        width: 100%;
+        line-height: 137%;
+        margin-bottom: 29px;
+    }
+
+    .donation-info description a {
+        font-size: 24px;
+    }
+
+    .header-pff {
+        margin-bottom: 12px;
+    }
+
+    .header-pff h2 {
+        font-size: 24px;
+    }
+
+    .header-pff p {
+        font-size: 16px;
+        width: 131%;
+        margin-left: -37px;
+        line-height: 130%;
+    }
+
+    .img-max {
+        display: none;
+    }
+
+    .img-min {
+        display: block;
+    }
+
+    .animals-amount {
+        font-size: 40px;
+    }
+
+    .x-icon {
+        margin: 0px 30px 53px 7px;
+    }
+
+    .images-pff {
+        width: 120%;
+        margin-left: -7%;
+        margin-bottom: 0.3em;
+    }
+
+    .images-pff-txt {
+        margin-bottom: 27px;
+        margin-left: -18px;
+    }
+
+    .images-pff-txt p {
+        font-size: 9px;
+    }
+
+    .pay-bgd {
+        width: 129.5%;
+        margin-left: -2.1em;
+        height: 14px;
+    }
+
+    .pay-scale {
+        width: 123%;
+        margin-bottom: 25px;
+        margin-left: -7.4%;
+    }
+
+    .pb-item {
+        width: 8.7%;
+    }
+
+    .pb-input {
+        margin: -10px 0 10px 0;
+        width: 6px;
+        height: 6px;
+    }
+
+    .pb-item label {
+        margin-left: -10px;
+        font-size: 13px;
+    }
+
+    .custom-input {
+        width: 77%;
+        padding-left: 5px;
+        background-position: 160px center;
+        margin-bottom: 1.68em;
+    }
+
+    .custom-period {
+        margin-left: -10.7em;
+    }
+
+    .custom_pay {
+        margin-bottom: 21px;
+    }
+
+    .pff-btn {
+        margin-left: -14%;
+        height: 3.3em;
+        margin-bottom: 30px;
+        width: 128%;
+    }
+
+    .pff-btn-txt {
+        margin-left: -14.4%;
+        width: 130%;
+    }
+
+    .footer-min {
+        display:none;
+    }
+
+    .footer-wrapper {
+            padding-top: 0.9em;
+    }
+
+    .footer-container {
+       margin: 0 auto;
+       max-width: 320px;
+    }
+
+    .footer-mobile {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0.42em 0 0 0;
+    }
+
+    .footer-mobile-heading {
+        position: relative;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        margin-left: 5.05em;
+        margin-bottom: 1.5em;
+    }
+
+    .footer-mobile-heading::before {
+        position: absolute;
+        content: '';
+        background-image: url(.assets/icons/bamboo.svg);
+        background-repeat: no-repeat;
+        height: 1em;
+        width: 1em;
+        top: -0.2em;
+        left: 3.7em;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-left: 14%;
+    }
+
+    .footer-btn {
+        margin-top: 1.5em;
+        margin-left: 0.6em;
+        width: 97%;
+    }
+
+    .footer-designed-by {
+        margin-left: 0em;
+        margin-top: 1.5em;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .footer-designed-by p{
+        margin: 0;
+        text-align: right;
+        font-size: .99em;
+    }
+
+    .nav-footer {
+        margin-top: 0.5em;
+        margin-left: -6%;
+        width: 103%;
+    }
+
+    .nav-ul {
+        margin-left: 1.5em;
+        justify-content: space-between;
+        width: 88%;
+    }
+
+    .nav_li {
+        margin-right: 0;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+
+    header {
+        height: 2.1em;
+    }
+
+    .guide {
+        max-width: 320px;
+    }
+
+    .h1-logo {
+        margin-left: -0.4em;
+    }
+
+    .burger-menu {
+        position: relative;
+        margin-left: 13.7em;
+        margin-top: -2px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        z-index: 2;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+        cursor: pointer;
+    }
+    .burger-menu::before {
+        position: absolute;
+        content: '';
+        top: -4px;
+        left: 0px;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+    }
+    .burger-menu::after {
+        position: absolute;
+        content: '';
+        top: 4px;
+        left: 0px;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        transition: all ease 0.4s;
+    }
+
+    .burger-menu.active {
+        position: relative;
+        margin-left: 13.7em;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        z-index: 2;
+        height: 2px;
+        width: 1.13em;
+        background-color: rgba(255, 0, 0, 0);
+        transition: all ease 0.4s;
+    }
+    .burger-menu.active::before {
+        top: 5.8px;
+        transform: rotate(-45deg) translate(0px, -50%);
+        background-color: red;
+    }
+
+    .burger-menu.active::after {
+        transform: rotate(45deg) translate(0px, 50%);
+        background-color: red;
+    }
+
+
+    .menu-open {
+        display: none;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        max-width: 320px;
+        width: 100%;
+        height: 329px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.875);
+        box-shadow: 0px 0px 10px 100vh #000000ab;
+        transition: all ease 0.4s;
+    }
+
+    main {
+        margin-top: 34px;
+    }
+
+    .panda-background {
+        background-image: url(.assets/images/panda-donate-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position-y: 0.25em;
+        background-size: auto;
+        min-height: 190px;
+    }
+
+    .donation-wrapper {
+        padding: 2.03em 0.6em 1.25em 1.2em;
+    }
+
+    .pick-feed-friend {
+        padding: 20px 34px 21px 34px;
+    }
+
+    .donation-box {
+        max-width: 320px;
+        margin: 0 auto;
+        margin-left: -0.6em;
+    }
+
+    .donation-info description {
+        margin-bottom: 1.8em;
+    }
+
+    .donation-info description h2 {
+        line-height: 119%;
+    }
+
+    .donation-info description p {
+        width: 100%;
+        line-height: 137%;
+        margin-bottom: 29px;
+    }
+
+    .donation-info description a {
+        font-size: 24px;
+    }
+
+    .header-pff {
+        margin-bottom: 12px;
+    }
+
+    .header-pff h2 {
+        font-size: 24px;
+    }
+
+    .header-pff p {
+        font-size: 16px;
+        width: 131%;
+        margin-left: -37px;
+        line-height: 130%;
+    }
+
+    .img-max {
+        display: none;
+    }
+
+    .img-min {
+        display: block;
+    }
+
+    .animals-amount {
+        font-size: 40px;
+    }
+
+    .x-icon {
+        margin: 0px 34px 53px 7px;
+    }
+
+    .images-pff {
+        width: 122%;
+        margin-left: -7%;
+        margin-bottom: 0.3em;
+    }
+
+    .images-pff-txt {
+        margin-bottom: 27px;
+        margin-left: -18px;
+    }
+
+    .images-pff-txt p {
+        font-size: 9px;
+    }
+
+    .pay-bgd {
+        width: 129.5%;
+        margin-left: -2.1em;
+        height: 14px;
+    }
+
+    .pay-scale {
+        width: 123%;
+        margin-bottom: 19px;
+        margin-left: -7.4%;
+    }
+
+    .pb-item {
+        width: 8.7%;
+    }
+
+    .pb-input {
+        margin: -10px 0 10px 0;
+        width: 6px;
+        height: 6px;
+    }
+
+    .pb-item label {
+        margin-left: -10px;
+        font-size: 13px;
+    }
+
+    .custom-input {
+        width: 77%;
+        padding-left: 5px;
+        background-position: 160px center;
+        margin-bottom: 1.68em;
+    }
+
+    .custom-period {
+        margin-left: -10.7em;
+    }
+
+    .custom_pay {
+        margin-bottom: 21px;
+    }
+
+    .pff-btn {
+        margin-left: -14%;
+        height: 3.3em;
+        margin-bottom: 30px;
+        width: 128%;
+    }
+
+    .pff-btn-txt {
+        margin-left: -14.4%;
+        width: 130%;
+    }
+
+    .footer-min {
+        display:none;
+    }
+
+    .footer-wrapper {
+            padding-top: 0.9em;
+    }
+
+    .footer-container {
+       margin-left: 0;
+    }
+
+    .footer-mobile {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0.42em 0 0 0;
+    }
+
+    .footer-mobile-heading {
+        position: relative;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        margin-left: 5.05em;
+        margin-bottom: 1.5em;
+    }
+
+    .footer-mobile-heading::before {
+        position: absolute;
+        content: '';
+        background-image: url(.assets/icons/bamboo.svg);
+        background-repeat: no-repeat;
+        height: 1em;
+        width: 1em;
+        top: -0.2em;
+        left: 3.7em;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-left: 14%;
+    }
+
+    .footer-btn {
+        margin-top: 1.5em;
+        margin-left: 0.6em;
+        width: 97%;
+    }
+
+    .footer-designed-by {
+        margin-left: 0em;
+        margin-top: 1.5em;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .footer-designed-by p{
+        margin: 0;
+        text-align: right;
+        font-size: .99em;
+    }
+
+    .nav-footer {
+        margin-top: 0.5em;
+        margin-left: -6%;
+        width: 103%;
+    }
+
+    .nav-ul {
+        margin-left: 1.5em;
+        justify-content: space-between;
+        width: 88%;
+    }
+
+    .nav_li {
+        margin-right: 0;
+    }
+}
+
+
+
