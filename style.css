@@ -1,0 +1,2915 @@
+body {
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    max-width: 100%;
+    height: 7080px;
+}
+
+header {
+    max-width: 100%;
+    position: relative;
+    height: 80px;
+    background: black;
+}
+
+.guide {
+    max-width: 1160px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h1-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    max-width: 79px;
+    max-height: 47px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.h1-logo::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 40%;
+    width: 14%;
+    left: 12.5%;
+    top: 44%;
+    background-image: url(./assets/icons/bamboo.svg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+.navbar-header {
+    display: flex;
+    width: 67%;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.nav-ul {
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    list-style-type: none;
+}
+
+.nav-li {
+    margin-right: 10%;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-anchor {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.designed-by {
+    margin-left: 16.8%;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+main {
+    margin: 0 auto;
+    background-color:#FFFFFF;
+    height: fit-content;
+    margin-top: -80px;
+}
+
+.watch-animal-wrapper{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color:#FFFFFF;
+    background-image: url(./assets/images/Pandagiant.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+}
+
+.watch-animal {
+    display: flex;
+    max-width: 1160px;
+    margin: auto;
+    height: 780px;
+}
+
+.orange-circle {
+    position: absolute;
+     border-radius: 50%;
+     width: 465px;
+     height: 465px;
+     left: 50.5%;
+     top: 92px;
+     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+ }
+
+ .watch-txt {
+    z-index: 1;
+    margin-left: 57%;
+    margin-top: 14.4%;
+    width: 500.31px;
+    height: 400px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.watch-btn {
+    display: block;
+    border: none;
+    width: 26.15%;
+    height: 54px;
+    margin-top: 54%;
+    margin-left: -34.4%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.backstage-wrapper {
+    display: flex;
+    max-width: 1160px;
+    margin: auto;
+    background-image: url(./assets/images/flower_foto1.jpg);
+    background-repeat: no-repeat;
+    background-position: right 11%;
+    padding-bottom: 10.1%;
+    padding-top: 6.29%;
+}
+
+.backstage-photo {
+    margin-top: 3.5%;
+    background-image: url(./assets/images/bamboo-capbackstage_photo.jpg);
+    height: 403px;
+    width: 250%;
+    background-repeat: no-repeat;
+}
+
+.backstage-header {
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.backstage-txt {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-p {
+    display: block;
+    margin: 53px 0px 34px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+}
+
+.pets-wrapper {
+    max-width: 100%;
+    z-index: 1;
+    background-image: url(./assets/images/palm_foto.jpg), url(./assets/images/strelitzia1.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right bottom;
+    max-width: 1160px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.pets-slider {
+    position: relative;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.slider-upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.65%;
+}
+
+.slider-lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 1%;
+    height: 427px;
+    width: 31.55%;
+    border: 0.5px solid #F9804B;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.animals {
+    width: 100%;
+    height: 366px;
+    margin: auto;
+}
+
+.panda {
+    background-image: url(./assets/images/panda.jpg);
+    background-repeat: no-repeat;
+}
+
+.eagle {
+    background-image: url(./assets/images/eagle.jpg);
+    background-repeat: no-repeat;
+}
+
+.gorilla {
+    background-image: url(./assets/images/gorilla.jpg);
+    background-repeat: no-repeat;
+}
+
+.sloth {
+    background-image: url(./assets/images/sloth.jpg);
+    background-repeat: no-repeat;
+}
+
+.cheetah {
+    background-image: url(./assets/images/cheetah.jpg);
+    background-repeat: no-repeat;
+}
+
+.penguin {
+    background-image: url(./assets/images/penguin.jpg);
+    background-repeat: no-repeat;
+}
+
+.animal-description{
+    background-color: #FFFFFF;
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+    padding-bottom: 3.4%;
+    margin-top: -2%;
+}
+
+.head-animals {
+    margin-left: 3%;
+    margin-top: 2.5%;
+    margin-bottom: -1%;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+    width: 99.99%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.area {
+    margin-left: 3.5%;
+}
+
+.gorilla-herb, .panda-herb, .sloth-herb{
+    position: relative;
+}
+
+.panda-herb::before, .gorilla-herb::before, .sloth-herb::before {
+    content: '';
+    position: absolute;
+    background-image: url(./assets/icons/banana-bamboo_icon.svg);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 60%;
+    top: 18.5%;
+    left: 88.5%;
+}
+
+.eagle-carn, .cheetah-carn, .penguin-carn {
+    position: relative;
+}
+
+.eagle-carn::before, .cheetah-carn::before, .penguin-carn::before {
+    content: '';
+    position: absolute;
+    background-image: url(./assets/icons/meet-fish_icon.svg);
+    background-repeat: no-repeat;
+    width: 15%;
+    height: 60%;
+    top: 16%;
+    left: 85%;
+}
+
+.frame {
+    position: relative;
+    cursor: pointer;
+}
+
+.frame .card-hover {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(9, 9, 9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all ease-in 0.4s;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 25px;
+    padding-top: 30px;
+}
+
+.frame:hover .card-hover {
+    opacity: 0.6;
+}
+
+.frame:hover .animal-description {
+    opacity: 0;
+}
+
+.frame:hover .animals {
+    transition: all linear 0.4s;
+    background-size: 120%;
+    width: 120%;
+    background-position-x: -100px;
+    height:100%;
+}
+
+.card-hover span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: left;
+}
+
+.slider-btn-right {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    right: -80px;
+    top: 404px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+}
+
+.slider-btn-right::before {
+    content: '';
+    position: absolute;
+    background-image: url(./assets/icons/arrow_right.svg) ;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 20%;
+    right: 22px;
+    top: 26px;
+    z-index: 2;
+}
+
+
+.slider-btn-left {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: -82px;
+    top: 404px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+}
+
+.slider-btn-left::before {
+    content: '';
+    position: absolute;
+    background-image: url(./assets/icons/arrow_left.svg) ;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 20%;
+    left: 20px;
+    top: 26px;
+    z-index: 2;
+}
+
+.choose-favorite-btn {
+    margin-left: 37.3%;
+    margin-bottom: 8.6%;
+    display: block;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2);
+    top: 2455px;
+    background: #FE9013;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pick-wrapper {
+    max-width: 100%;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    padding-top: 1.8%;
+    padding-bottom: 99px;
+}
+
+.pick-section {
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 835px;
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}    
+
+.pick-txt p {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-left: 8.5%;
+}
+
+.pick-header {
+    padding-top: 3.5%;
+    padding-bottom: 0.7%;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+}
+
+.p-one {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+.p-two {
+    font-weight: 500;
+    margin-top: 38px;
+    margin-bottom: 0;
+    padding-bottom: 11px;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.p-three {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin: 0;
+    width: 75%;
+}
+
+.header-hiw {
+    margin: 0;
+    padding-top: 59px;
+    margin-left: 475px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #333B41;
+}
+
+.img-container {
+    padding-top: 41px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 68.6%;
+    margin-bottom: 61px;
+}
+
+.img-one {
+    width: 168px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid rgb(239, 116, 63);
+    background-image: url(./assets/icons/pay.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-two {
+    width: 168px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid rgb(239, 116, 63);
+    background-image: url(./assets/icons/zoo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-three {
+    width: 168px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid rgb(239, 116, 63);
+    background-image: url(./assets/icons/monkeymonkey.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 28px;
+    margin-bottom: 0;
+}
+
+.arrow {
+    width: 69px;
+    height: 158px;
+    background-image: url(./assets/icons/Vector2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.feed-btn {
+    display: block;
+    width: 298px;
+    height: 54px;
+    margin: 0 auto;
+    top: 2455px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.testimonials-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 181px;
+    background-image: url(./assets/images/leav_foto.jpg);
+    background-repeat: no-repeat;
+    background-position: right 126%;
+}
+
+.testimonials-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-testimonials {
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.comments {
+    margin-top: 47px;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments-wrapper {
+    border-radius: 20px;
+    width: 268px;
+    height: 391px;
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.comment-card {
+    box-sizing: border-box;
+    padding: 14px 13px 14px 12px;
+    margin: 2px auto;
+    width: 265px;
+    height: 387px;
+    background: #F1F3F2;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-header {
+    display: flex;
+}
+
+.user-photo {
+    width: 38px;
+    height: 38px;
+}
+
+.user-info {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.user-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0;
+}
+
+.user-location {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+    margin: 0;
+}
+
+.comment-txt {
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+    overflow: scroll;
+    max-height: 85%;
+}
+
+.slider-container {
+    width: 52%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.slider-testimonials {
+    width: 100%;
+    height: 7px;
+    -webkit-appearance: none;
+    appearance: none;
+    background:  #F5F7F6;
+    border-radius: 5px;
+    border: 1px solid #fec1b1;
+}
+
+.testimonials-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+}
+
+.footer-wrapper {
+    max-width: 100%;
+    background-color: #111115;
+    padding-top: 40px;
+    padding-bottom: 33px;
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-btn {
+    margin-top: 63px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.footer-links a {
+    height: 36px;
+}
+
+.fb-link:hover {
+    background-image: url(./assets/icons/facebook-hover.svg);
+    background-repeat: no-repeat;
+    color: #4B9200;
+}
+
+.fb-link:active {
+    background-image: url(./assets/icons/facebook-active.svg);
+    background-repeat: no-repeat;
+}
+
+.twitter-link:hover{
+    background-image: url(./assets/icons/twitter-hover.svg);
+    background-repeat: no-repeat;
+}
+
+.twitter-link:active{
+    background-image: url(./assets/icons/twitter-active.svg);
+    background-repeat: no-repeat;
+}
+
+.insta-link:hover {
+        background-image: url(./assets/icons/instagram-hover.svg);
+        background-repeat: no-repeat;
+}
+
+.insta-link:active {
+    background-image: url(./assets/icons/instagram-active.svg);
+    background-repeat: no-repeat;
+}
+
+.youtube-link:hover {
+        background-image: url(./assets/icons/youtube-hover.svg);
+        background-repeat: no-repeat;
+}
+
+.youtube-link:active {
+    background-image: url(./assets/icons/youtube-active.svg);
+    background-repeat: no-repeat;
+}
+
+.footer-middle {
+    margin-top: 316px;
+    margin-left: 47px;
+    width: 39.35%;
+    box-sizing: border-box;
+}
+
+.footer-right {
+    margin-left: -8px;
+    width: 31%;
+}
+
+.subscribe {
+    margin-bottom: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #ffffff;
+}
+
+.submit-form {
+    display: flex;
+    margin-right: -6px;
+}
+
+.submit-form:focus-within button {
+    background-color: #4b92002b;
+    color:  #F1F3F2;
+}
+
+.footer-input {
+    margin-right: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+    background: transparent;
+    border: 1px solid #FE9013;
+    height: 38px;
+    width: 90%;
+    padding-left: 9px;
+}
+
+.subscribe-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    height: 42px;
+    width: 52%;
+}
+
+.footer-designed-by {
+    margin-top: 213px;
+    margin-left: 139px;
+    width: 228px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 188%;
+    color: #ffffff94;
+}
+
+@media all and (max-width: 1599px) and (min-width: 1001px) {
+    header {
+        z-index: 2;
+    }
+    .h1-logo {
+        margin-left: 1.85em;
+    }
+
+    .navbar-header {
+        width: 33.89em;
+    }
+
+    .nav-ul {
+        margin-left: 1.5em;
+    }
+
+    .designed-by {
+        margin-left: 13.13em;
+    }
+
+    .watch-animal-wrapper {
+        background-position-x: -5.95em;
+        background-position-y: 0.3em;
+        background-size: 118.8%;
+        height: 780px;
+    }
+
+    .orange-circle {
+        padding: 11.5em;
+        top: 5.5%;
+        left: 45.5%;
+        z-index: 1;
+        }
+
+    .watch-txt {
+        z-index: 1;
+        margin-left: 50.5%;
+        margin-top: 12.4%;
+        width: 5.045em;
+        font-weight: 700;
+        font-size: 5.18em;
+        line-height: 77%;
+    }
+
+    .watch-btn {
+        width: 19em;
+        margin-top: 48.2%;
+        margin-left: -35.4%;
+    }
+
+    .backstage-wrapper {
+        background-image: none;
+        padding-top: 4em;
+        box-sizing: border-box;
+        padding-left: 1.9em;
+        padding-bottom: 8em;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .backstage-photo {
+        background-image: url(./assets/images/bamboo-cap-smalldesktop.jpg);
+        height: 25.5em;
+        width: 53em;
+    }
+
+    .backstage-txt {
+        margin-left: 0;
+        width: 28em;
+    }
+
+    .backstage-header {
+        margin-top: 0.5em;
+    }
+
+    .pets-wrapper {
+        font-family: 'Roboto';
+        box-sizing: border-box;
+        padding-left: 2em;
+        padding-bottom: 8.8em;
+        margin: 0 auto;
+        max-width: 1000px;
+        background-image: url(./assets/images/palm-sd.jpg), url(./assets/images/strelitzia-sd.jpg);
+    }
+
+    .pets-slider {
+        margin-bottom: 8.35%;
+
+    }
+
+    .slider-upper {
+        justify-content: flex-start;
+        row-gap: 6em;
+        column-gap: 2em;
+    }
+
+    .frame {
+        height: 22em;
+        width: 18.2em;
+    }
+
+    .animals {
+        height: 18.5em;
+        background-position: center;
+    }
+
+    .slider-btn-left {
+        width: 4em;
+        height: 4em;
+        left: 20em;
+        top: 23em;
+    }
+
+    .slider-btn-right {
+        width: 4em;
+        height: 4em;
+        right: 21.95em;
+        top: 23em;
+    }
+
+    .choose-favorite-btn {
+        margin-left: 33%;
+        margin-bottom: 0;
+        display: block;
+        width: 18.65em;
+        height: 3.35em;
+    }
+
+    .pick-wrapper {
+        box-sizing: border-box;
+        padding: 2em 2em 3em 2em;
+    }
+
+    .pick-section {
+        box-sizing: border-box;
+        padding: 1em 0 3.15em 0px;
+        height: fit-content;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .pick-txt {
+        box-sizing: border-box;
+        padding-top: 0.65em;
+        padding-bottom: 2.5em;
+    }
+
+    .p-one {
+        margin-left: 5%;
+    }
+
+    .p-two {
+        margin-top: 1.15em;
+    }
+
+    .p-two, .p-three {
+        width: 87%;
+    }
+
+    .header-pick {
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .header-hiw {
+        padding-top: 0;
+        margin-left: 10.1em;
+    }
+
+    .img-container {
+        width: 85.4%;
+        margin-bottom: 4.58em;
+    }
+
+    .img-one, .img-two, .img-three {
+        width: 10.3em;
+        height: 10.25em;
+    }
+
+    .testimonials-wrapper {
+        box-sizing: border-box;
+        padding-top: 6.4em;
+        padding-bottom: 8.8em;
+        background-image: url(./assets/images/leaf-sd.jpg);
+        background-position: right 116.5%;
+        padding-left: 2em;
+        padding-right: 1.9em;
+    }
+
+    .testimonials-container {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .comments {
+        box-sizing: border-box;
+        padding: 2em 0em 0.8em 0em;
+        margin-top: 0;
+        margin-bottom: 0;
+        overflow: hidden;
+        width: 96%;
+        column-gap: 1.8em;
+    }
+
+    .comments-wrapper {
+        width: 298px;
+    }
+
+    .comment-card {
+        margin: 2px 2px auto;
+        width: 18.1em;
+        height: 24.2em;
+    }
+
+    .slider-container {
+        width: 41%;
+        margin-bottom: 2.9em;
+    }
+
+    .slider-testimonials {
+        width: 101%;
+        margin-left: -9px;
+    }
+
+    .testimonials-btn {
+        width: 18.6em;
+        height: 3.4em;
+    }
+
+    .footer-wrapper {
+        margin: 0 auto;
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .footer-middle {
+        margin-top: 19.6em;
+        margin-left: -4.5em;;
+        width: 45.35%;
+    }
+
+    .footer-right {
+        margin-left: -7.5em;
+        width: 37.5%;
+    }
+
+    .footer-designed-by {
+        margin-top: 13.25em;
+        margin-left: 10.6em;
+    }
+}
+
+@media all and (max-width: 1035px) and (min-width: 1001px) {
+    .comments {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 1000px) {
+header {
+    z-index: 2;
+}
+.h1-logo {
+    margin-left: 1.85em;
+}
+
+.navbar-header {
+    width: 33.89em;
+}
+
+.nav-ul {
+    margin-left: 1.5em;
+}
+
+.designed-by {
+    margin-left: 13.13em;
+}
+
+.watch-animal-wrapper {
+    background-position-x: -5.95em;
+    background-position-y: 0.3em;
+    background-size: 118.8%;
+}
+
+.orange-circle {
+    padding: 18.3%;
+    top: 4.3em;
+    left: 28.4em;
+    z-index: 1;
+    }
+
+.watch-txt {
+    z-index: 1;
+    margin-left: 50.5%;
+    margin-top: 12.4%;
+    width: 5.045em;
+    font-weight: 700;
+    font-size: 5.18em;
+    line-height: 77%;
+}
+
+.watch-btn {
+    width: 18.9em;
+    margin-top: 48.2%;
+    margin-left: -36%;
+}
+
+.watch-animal {
+    height: 37.2em;
+}
+
+.backstage-wrapper {
+    background-image: none;
+    padding-top: 4em;
+    box-sizing: border-box;
+    padding-left: 1.9em;
+    padding-bottom: 8em;
+}
+
+.backstage-photo {
+    background-image: url(./assets/images/bamboo-cap-smalldesktop.jpg);
+    height: 25.5em;
+    width: 53em;
+}
+
+.backstage-txt {
+    margin-left: 0;
+    width: 28em;
+}
+
+.backstage-header {
+    margin-top: 0.5em;
+}
+
+.pets-wrapper {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    padding-left: 2em;
+    padding-bottom: 8.8em;
+    background-image: url(./assets/images/palm-sd.jpg), url(./assets/images/strelitzia-sd.jpg);
+}
+
+.pets-slider {
+    margin-bottom: 8.35%;
+
+}
+
+.card-hover {
+    justify-content: flex-start;
+    row-gap: 6em;
+    column-gap: 2em;
+}
+
+.frame {
+    height: 22em;
+    width: 18.2em;
+}
+
+.animals {
+    height: 18.5em;
+    background-position: center;
+}
+
+.slider-btn-left {
+    width: 4em;
+    height: 4em;
+    left: 20em;
+    top: 23em;
+}
+
+.slider-btn-right {
+    width: 4em;
+    height: 4em;
+    right: 21.95em;
+    top: 23em;
+}
+
+.choose-favorite-btn {
+    margin-left: 33%;
+    margin-bottom: 0;
+    display: block;
+    width: 18.65em;
+    height: 3.35em;
+}
+
+.pick-wrapper {
+    box-sizing: border-box;
+    padding: 2em 2em 3em 2em;
+}
+
+.pick-section {
+    box-sizing: border-box;
+    padding: 1em 0 3.15em 0px;
+    height: fit-content;
+}
+
+.pick-txt {
+    box-sizing: border-box;
+    padding-top: 0.65em;
+    padding-bottom: 2.5em;
+}
+
+.p-one {
+    margin-left: 5%;
+}
+
+.p-two {
+    margin-top: 1.15em;
+}
+
+.p-two, .p-three {
+    width: 87%;
+}
+.header-pick {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-hiw {
+    padding-top: 0;
+    margin-left: 10.1em;
+}
+
+.img-container {
+    width: 85.4%;
+    margin-bottom: 4.58em;
+}
+
+.img-one, .img-two, .img-three {
+    width: 10.3em;
+    height: 10.25em;
+}
+
+
+.testimonials-wrapper {
+    box-sizing: border-box;
+    padding-top: 6.4em;
+    padding-bottom: 8.8em;
+    background-image: url(./assets/images/leaf-sd.jpg);
+    background-position: right 116.5%;
+    padding-left: 2em;
+    padding-right: 1.9em;
+}
+
+.comments {
+    box-sizing: border-box;
+    padding: 2em 0em 0.8em 0em;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow-y: hidden;
+    width: 100%;
+    column-gap: 1.8em;
+}
+
+.comments-wrapper {
+    width: 298px;
+}
+
+.comment-card {
+    margin: 2px 2px auto;
+    width: 18.1em;
+    height: 24.2em;
+}
+
+.slider-container {
+    width: 41%;
+    margin-bottom: 2.9em;
+}
+
+.slider-testimonials {
+    width: 101%;
+    margin-left: -9px;
+}
+
+.testimonials-btn {
+    width: 18.6em;
+    height: 3.4em;
+}
+
+.footer-wrapper {
+    margin-left: 1.9em;
+    max-width: 1000px;
+    width: 96%;
+}
+
+.footer-middle {
+    margin-top: 19.6em;
+    margin-left: -4.5em;;
+    width: 45.35%;
+}
+
+.nav-footer ul {
+    width: 85%;
+}
+
+.footer-right {
+    margin-left: -7.5em;
+    width: 37.5%;
+}
+
+.footer-designed-by {
+    margin-top: 13.25em;
+    margin-left: 10.6em;
+}
+}
+
+@media all and (max-width:999px) and (min-width:641px) {
+    header {
+        height: 2.15em;
+    }
+
+    .guide {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .navbar-header, .designed-by {
+        display: none;
+    }
+
+    .h1-logo {
+        border: none;
+        margin-left: 0.27em;
+    }
+
+    .h1-logo::before {
+        height: 24%;
+        width: 14%;
+        left: 23.5%;
+        top: 48%;
+        background-size: 80%;
+    }
+
+    h1 {
+        font-size: 0.75em;
+    }
+
+    .burger-menu {
+        margin-left: 32.4em;
+        margin-top: -2px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+    }
+
+    .burger-span {
+    display: block;
+    height: 2px;
+    width: 1.13em;
+    background-color: white;
+    }
+
+    .watch-animal {
+        height: 26.2em;
+        margin: 0 auto;
+        max-width: 640px;
+    }
+
+    .watch-animal-wrapper {
+        background-image: url(./assets/images/Giant-panda-tablet.jpg);
+        background-position-x: 0em;
+        background-position-y: 2.8em;
+        background-size: 100%;
+    }
+
+    .orange-circle {
+        padding: 7.4em;
+        top: 7%;
+        left: 51.5%;
+    }
+
+    .watch-txt {
+        margin-left: 59%;
+        margin-top: 19.8%;
+        width: 4.5em;
+        font-weight: 700;
+        font-size: 3.18em;
+        line-height: 81%;
+    }
+
+    .watch-txt span {
+        margin-left: -11px;
+    }
+
+    .watch-btn {
+        margin-top: 50.8%;
+        margin-left: -91.2%;
+        width: 18.5em;
+    }
+
+    .backstage-wrapper {
+        background-image: url(./assets/images/flower_foto1-tablet.jpg);
+        background-position: right -25%;
+        padding-top: 2.2em;
+        box-sizing: border-box;
+        padding-left: 1.55em;
+        padding-bottom: 4.1em;
+        margin: 0 auto;
+        max-width: 640px;
+    }
+
+    .backstage-photo {
+        display: none;
+    }
+
+    .backstage-header {
+        margin-bottom: 0.43em;
+    }
+
+    .backstage-txt {
+        width: 80%;
+    }
+
+    .backstage-txt {
+        margin-top: 0;
+        margin-left: -0.22em;
+        margin-bottom: 1.85em;
+        width: 31em;
+    }
+
+    .header-p {
+        margin-top: 0;
+        margin-bottom: 0.787em;
+    }
+
+    .pets-wrapper {
+        margin: 0 auto;
+        max-width: 640px;
+        padding-left: 1.2em;
+        padding-bottom: 6.25em;
+        background-image: url(./assets/images/palm-tablet.jpg), url(./assets/images/strelitzia-tablet.jpg);
+    }
+
+    .pets-slider {
+        margin-bottom: 3.7em;
+    }
+
+    .frame {
+        height: 20.8em;
+        width: 17.9em;
+    }
+
+    .cheetah, .penguin {
+        display: none;
+    }
+
+    .animals {
+        height: 17.7em;
+    }
+
+    .animal-description {
+        font-size: 0.71em;
+    }
+
+    .pets-slider {
+        margin-top: 2.8%;
+        font-size: 1.09em;
+    }
+
+    .slider-btn-left {
+        width: 3.9em;
+        height: 3.8em;
+        left: 13.9em;
+        top: 21.5em;
+    }
+
+    .slider-btn-right {
+        width: 3.95em;
+        height: 3.8em;
+        right: 15.1em;
+        top: 21.5em;
+    }
+
+    .slider-frames {
+        row-gap: 5.7em;
+        column-gap: 1.8em;
+    }
+
+    .choose-favorite-btn {
+        margin-left: 9.5em;
+    }
+
+    .pick-wrapper {
+        padding: 1.3em 0em 1.3em 0em;
+    }
+
+    .pick-section {
+        margin: 0 auto;
+        max-width: 640px;
+        padding: 0em 0 3.8em 0px;
+    }
+
+    .header-pick {
+        font-size: 2.62em;
+    }
+
+    .pick-txt {
+        padding-bottom: 1.9em;
+    }
+
+    .p-one {
+        margin-left: 3%;
+    }
+
+    .p-one {
+        margin-left: 1em;
+        margin-top: 0.9em;
+        font-size: 1.368em;
+    }
+
+    .p-two {
+        font-size: 1em;
+        margin-left: 1.25em;
+        margin-top: 1.2em;
+        width: 92%;
+    }
+
+    .p-three, .p-two {
+        width: 93%;
+    }
+
+    .header-hiw {
+        margin-left: 6em;
+    }
+
+    .img-container {
+        position: relative;
+        width: 98%;
+        margin-left: 0em;
+        margin-bottom: 2.7em;
+        padding-top: 1.3em;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .img-container::before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0.125em;
+        left: 9.6em;
+        height: 63px;
+        width: 90px;
+        background-image: url(./assets/icons/arrow.svg);
+        background-repeat: no-repeat;
+    }
+
+    .img-container::after {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0.125em;
+        left: 22.6em;
+        height: 63px;
+        width: 90px;
+        background-image: url(./assets/icons/arrow.svg);
+        background-repeat: no-repeat;
+    }
+
+    .testimonials-wrapper {
+        padding-top: 3.75em;
+        padding-bottom: 5em;
+        background-image: url(./assets/images/leaf-tablet.svg);
+        background-position: right 115%;
+        box-sizing: border-box;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .testimonials-container {
+        margin: 0 auto;
+        max-width: 640px;
+    }
+
+    .comments {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 1.7em 0em 0.8em 0em;
+        row-gap: 13px;
+        height: 400px;
+        overflow-y: scroll;
+        margin-bottom: 1.6em;
+    }
+
+    .comments::-webkit-scrollbar {
+        display: none;
+    }
+
+    .comments::-webkit-scrollbar-thumb {
+        display: none;
+    }
+
+    .comments-wrapper {
+        width: 37.5em;
+        height: 7em;
+    }
+
+    .comment-card {
+        width: 37.2em;
+        height: 6.8em;
+        margin: 1px 3px 3px 3px;
+    }
+
+    .comment-txt {
+        max-height: 60%;
+    }
+
+    .slider-container {
+        display: none;
+    }
+
+    .testimonials-btn {
+        margin-left: 11.5em;
+        width: 15em;
+    }
+
+    .footer-wrapper {
+        margin: 0 auto;
+        max-width: 640px;
+        width: 96%;
+        padding-top: 0.8em;
+    }
+
+    .footer-btn {
+        margin-top: 1.7em;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 40%;
+    }
+
+    .nav-footer {
+        margin-top: 5em;
+        margin-left: -3.85em;
+        width: 105%;
+    }
+
+    .footer-links {
+        row-gap: 0.6em;
+        margin-top: 0.125em;
+    }
+
+    .fcb-link, .twitter-link, .insta-link, .youtube-link {
+        position: relative;
+    }
+
+    .footer-links a:hover {
+        transform: scale(1.1);
+        transition: all ease-in 0.2s;
+        filter: opacity(4) brightness(1) contrast(2.5);
+    }
+
+    .fcb-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(./assets/icons/facebook-icon.png);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: 9px;
+    }
+
+    .twitter-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(./assets/icons/twitter-icon.png);
+        background-repeat: no-repeat;
+        top: 6px;
+        left: 6px;
+    }
+
+    .insta-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(./assets/icons/instagram-icon.png);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: 5px;
+    }
+
+    .youtube-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1.2em;
+        background-image: url(./assets/icons/youtube-icon.png);
+        background-repeat: no-repeat;
+        top: 6.5px;
+        left: 4px;
+    }
+
+    .footer-designed-by {
+        margin-top: 1.78em;
+    }
+
+    .footer-designed-by p {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 640px) {
+    header {
+        height: 2.15em;
+        top: 0;
+        position: fixed;
+        width: 100%;
+    }
+
+    .navbar-header, .designed-by {
+        display: none;
+    }
+
+    .h1-logo {
+        border: none;
+        margin-left: 0.27em;
+    }
+
+    .h1-logo::before {
+        height: 24%;
+        width: 14%;
+        left: 23.5%;
+        top: 48%;
+        background-size: 80%;
+    }
+
+    h1 {
+        font-size: 0.75em;
+    }
+
+    .burger-menu {
+        margin-left: 32.4em;
+        margin-top: -2px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+    }
+
+    .burger-span {
+    display: block;
+    height: 2px;
+    width: 1.13em;
+    background-color: white;
+    }
+
+    main {
+        margin-top: -45.5px;
+    }
+
+    .watch-animal {
+        height: 26.2em;
+    }
+
+    .watch-animal-wrapper {
+        background-image: url(./assets/images/Giant-panda-tablet.jpg);
+        background-position-x: 0em;
+        background-position-y: 2.8em;
+        background-size: 100%;
+    }
+
+    .orange-circle {
+        padding: 18.6%;
+        top: 2.8em;
+        left: 20.8em;
+    }
+
+    .watch-txt {
+        margin-left: 59%;
+        margin-top: 19.8%;
+        width: 4.4em;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 76%;
+    }
+
+    .watch-txt span {
+        margin-left: -4px;
+    }
+
+    .watch-btn {
+        margin-top: 50.8%;
+        margin-left: -93%;
+        width: 18.7em;
+    }
+
+    .backstage-wrapper {
+        background-image: url(./assets/images/flower_foto1-tablet.jpg);
+        background-position: right -25%;
+        padding-top: 2.2em;
+        box-sizing: border-box;
+        padding-left: 1.55em;
+        padding-bottom: 4.1em;
+    }
+
+    .backstage-photo {
+        display: none;
+    }
+
+    .backstage-header {
+        margin-bottom: 0.43em;
+    }
+
+    .backstage-txt {
+        width: 80%;
+    }
+
+    .backstage-txt {
+        margin-top: 0;
+        margin-left: -0.22em;
+        margin-bottom: 1.85em;
+        width: 31em;
+    }
+
+    .header-p {
+        margin-top: 0;
+        margin-bottom: 0.787em;
+    }
+
+    .pets-wrapper {
+        padding-left: 1.2em;
+        padding-bottom: 6.25em;
+        background-image: url(./assets/images/palm-tablet.jpg), url(./assets/images/strelitzia-tablet.jpg);
+    }
+
+    .pets-slider {
+        margin-bottom: 3.7em;
+    }
+
+
+    .frame {
+        height: 20.8em;
+        width: 17.9em;
+    }
+
+    .cheetah, .penguin {
+        display: none;
+    }
+
+    .animals {
+        height: 17.7em;
+    }
+
+    .animal-description {
+        font-size: 0.71em;
+    }
+
+    .pets-slider {
+        margin-top: 2.8%;
+        font-size: 1.09em;
+    }
+
+    .slider-btn-left {
+        width: 3.9em;
+        height: 3.8em;
+        left: 13.9em;
+        top: 21.5em;
+    }
+
+    .slider-btn-right {
+        width: 3.95em;
+        height: 3.8em;
+        right: 15.1em;
+        top: 21.5em;
+    }
+
+    .slider-frames {
+        row-gap: 5.7em;
+        column-gap: 1.8em;
+    }
+
+    .choose-favorite-btn {
+        margin-left: 9.5em;
+    }
+
+    .pick-wrapper {
+        padding: 1.3em 0em 1.3em 0em;
+    }
+
+    .pick-section {
+        padding: 0em 0 3.8em 0px;
+    }
+
+    .header-pick {
+        font-size: 2.62em;
+    }
+
+    .pick-txt {
+        padding-bottom: 1.9em;
+    }
+
+    .p-one {
+        margin-left: 1em;
+        margin-top: 0.9em;
+        font-size: 1.368em;
+    }
+
+    .p-two {
+        font-size: 1em;
+        margin-left: 1.25em;
+        margin-top: 1.2em;
+        width: 92%;
+    }
+
+    .p-three, .p-two {
+        width: 93%;
+    }
+
+    .header-hiw {
+        margin-left: 6em;
+    }
+
+    .img-container {
+        position: relative;
+        width: 98%;
+        margin-left: 0em;
+        margin-bottom: 2.7em;
+        padding-top: 1.3em;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .img-container::before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0.125em;
+        left: 9.6em;
+        height: 63px;
+        width: 90px;
+        background-image: url(./assets/icons/arrow.svg);
+        background-repeat: no-repeat;
+    }
+
+    .img-container::after {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0.125em;
+        left: 22.6em;
+        height: 63px;
+        width: 90px;
+        background-image: url(./assets/icons/arrow.svg);
+        background-repeat: no-repeat;
+    }
+
+    .testimonials-wrapper {
+        padding-top: 3.75em;
+        padding-bottom: 5em;
+        background-image: url(./assets/images/leaf-tablet.svg);
+        background-position: right 115%;
+        box-sizing: border-box;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .comments {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 1.7em 0em 0.8em 0em;
+        row-gap: 13px;
+        height: 400px;
+        overflow: hidden;
+        margin-bottom: 1.6em;
+    }
+
+    .comments::-webkit-scrollbar {
+        display: none;
+    }
+
+    .comments::-webkit-scrollbar-thumb {
+        display: none;
+    }
+
+    .comments-wrapper {
+        width: 37.5em;
+        height: 7em;
+    }
+
+    .comment-card {
+        width: 37.2em;
+        height: 6.8em;
+        margin: 1px 3px 3px 3px;
+    }
+
+    .comment-txt {
+        max-height: 45%;
+    }
+
+    .slider-container {
+        display: none;
+    }
+
+    .testimonials-btn {
+        margin-left: 11.5em;
+        width: 15em;
+    }
+
+    .footer_wrapper {
+        padding-top: 0.8em;
+    }
+
+    .footer-wrapper {
+        margin-left: 1.2em;
+        max-width: 640px;
+        width: 96%;
+    }
+
+    .footer-btn {
+        margin-top: 1.7em;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 40%;
+    }
+
+    .nav-footer {
+        margin-top: 5em;
+        margin-left: -3.85em;
+        width: 105%;
+    }
+
+    .nav-footer ul {
+    width: 105.5%;
+}
+
+    .footer-links {
+        row-gap: 0.6em;
+        margin-top: 0.125em;
+    }
+
+    .fcb-link, .twitter-link, .insta-link, .youtube-link {
+        position: relative;
+    }
+
+    .footer-links a:hover {
+        transform: scale(1.1);
+        transition: all ease-in 0.2s;
+        filter: opacity(4) brightness(1) contrast(2.5);
+    }
+
+    .fcb-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(./assets/icons/facebook-icon.png);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: 9px;
+    }
+
+    .twitter-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(./assets/icons/twitter-icon.png);
+        background-repeat: no-repeat;
+        top: 6px;
+        left: 6px;
+    }
+
+    .insta-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-image: url(./assets/icons/instagram-icon.png);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: 5px;
+    }
+
+    .youtube-link::before {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 1em;
+        width: 1.2em;
+        background-image: url(./assets/icons/youtube-icon.png);
+        background-repeat: no-repeat;
+        top: 6.5px;
+        left: 4px;
+    }
+
+    .footer-designed-by {
+        margin-top: 1.78em;
+    }
+
+    .footer-designed-by p {
+        margin: 0;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 639px) {
+    .guide {
+        max-width: 320px;
+    }
+
+    .h1-logo {
+        margin-left: -0.4em;
+    }
+
+    .burger-menu {
+        margin-left: 13.7em;
+        margin-top: -2px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+    }
+
+    .burger-span {
+        display: block;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+    }
+
+    main {
+        margin-top: -45.5px;
+    }
+
+    .watch-animal-wrapper {
+        background-image: url(./assets/images/Panda-mobile.jpg);
+        background-position-x: 0;
+        background-position-y: 5em;
+        background-size: 100%;
+    }
+
+    .watch-animal {
+        height: 21.2em;
+        margin: 0 auto;
+        max-width: 320px;
+    }
+
+    .orange-circle {
+        padding: 3.77em;
+        top: 8.6%;
+        left: 51%;
+    }
+
+    .watch-txt {
+        margin-left: 58%;
+        margin-top: 37%;
+        width: 4.4em;
+        font-size: 1.7em;
+    }
+
+    .watch-txt span {
+        margin-left: -3px;
+    }
+
+    .watch-btn {
+        margin-top: 89.8%;
+    }
+
+    .backstage-wrapper {
+        background-image: none;
+        padding-left: 0.55em;
+        background-position: right -3.65%;
+        margin-top: -24px;
+        padding-top: 2.68em;
+        padding-bottom: 1.4em;
+        max-width: 320px;
+    }
+
+    .backstage-header {
+        font-size: 1.5em;
+        font-size: 1.5em;
+        margin-bottom: 0.4em;
+        margin-left: 0.1em;
+    }
+
+    .backstage-txt {
+        margin-top: 0;
+        margin-left: 0.24em;
+        margin-bottom: 1.2em;
+        width: 114%;
+    }
+
+    .pick-txt {
+        padding-bottom: 1.9em;
+    }
+
+    .pick-txt p {
+        margin-left: 3%;
+    }
+
+    .header-p {
+        margin-top: 0;
+        margin-bottom: -0.28em;
+        margin-left: 0.15em;
+    }
+
+    .p-one {
+        margin-left: 1em;
+        margin-top: 0.9em;
+        font-size: 1em;
+    }
+
+    .p-two {
+        font-size: 1em;
+        margin-left: 1.25em;
+        margin-top: 1.2em;
+        width: 92%;
+    }
+
+    .p-three, .p-two {
+        width: 93%;
+    }
+
+    .header-hiw {
+        margin-left: 6em;
+    }
+
+    .slider-btn-left, .slider-btn-right {
+        display: none;
+    }
+
+    .pets-slider {
+        margin-bottom: 1.2em;
+    }
+
+    .slider-frames {
+        row-gap: 1.2em;
+    }
+
+    .choose-favorite-btn {
+        margin-left: -0.5em;
+    }
+
+    .pets-wrapper {
+        padding-bottom: 2.4em;
+        padding-left: 0.6em;
+        max-width: 320px;
+        margin: 0 auto;
+        background-image: url(./assets/images/palm-mobile.jpg), url(./assets/images/strelitzia-mobile.jpg);
+        background-position: left bottom, right 100.3%;
+    }
+
+    .pick-wrapper {
+        padding: 1.3em 0.5em 1.3em 0.5em;
+    }
+
+    .pick-section {
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 0em 0 2.5em 0px;
+    }
+
+    .pick-txt {
+        padding-top: 1.2em;
+        padding-bottom: 1.3em;
+    }
+
+    .pick-txt p {
+        margin-left: 3%;
+        width: 92%;
+        text-align: center;
+        font-size: 1.125em;
+        margin-top: 0.63em;
+    }
+
+    .header-pick {
+        font-size: 1.5em;
+    }
+
+    .p-two, .p-three {
+        display: none;
+    }
+
+    .header-hiw {
+        font-size: 1.5em;
+        margin-left: 3.45em;
+    }
+
+    .img-container {
+        margin-left: 4.25em;
+        margin-bottom: 2.45em;
+        padding-top: 1.3em;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5em;
+        width: fit-content;
+    }
+
+    .img-container::before {
+        top: 12.125em;
+        left: 7.6em;
+        transform: rotate(84deg);
+    }
+
+    .img-container::after {
+        top: 28em;
+        left: 7.68em;
+        height: 63px;
+        width: 90px;
+        transform: rotate(84deg);
+    }
+
+    .img_text {
+        margin-top: 0.6em;
+    }
+
+    .image_three {
+        margin-top: -0.45em;
+    }
+
+    .testimonials-wrapper {
+        padding-top: 1.75em;
+        padding-bottom: 3.75em;
+        background-image: url(./assets/images/leaf-mobile.png);
+        background-position: right 106%;
+        padding-left: 0.5em;
+        padding-right: 0;
+    }
+
+    .testimonials-container {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .header-testimonials {
+        font-size: 1.5em;
+        margin-left: 3.5em;
+    }
+
+    .comments {
+        padding: 1.2em 1em 1em 0em;
+        row-gap: 13px;
+        height: 381px;
+        overflow: hidden;
+        margin-bottom: 1.6em;
+    }
+
+    .comments-wrapper {
+        width: 18.9em;
+        height: 6.9em;
+    }
+
+    .comment-card {
+        width: 18.65em;
+        height: 6.75em;
+        padding: 8px 12px 8px 10px;
+    }
+
+    .comment-txt {
+        overflow: hidden;
+        max-height: 40%;
+    }
+
+    .testimonials-btn {
+        margin-left: 2em;
+    }
+
+    .footer-wrapper {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .footer-mobile {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0.42em 0 0 0;
+    }
+
+    .header-footer-mobile {
+        position: relative;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        margin-left: 5.05em;
+        margin-bottom: 1.5em;
+    }
+
+    .header-footer-mobile::before {
+        position: absolute;
+        content: '';
+        background-image: url(./assets/icons/bamboo.svg);
+        background-repeat: no-repeat;
+        height: 1em;
+        width: 1em;
+        top: -0.2em;
+        left: 3.7em;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 81%;
+        margin-left: 2em;
+    }
+
+    .footer-btn {
+        margin-top: 1.25em;
+        margin-left: 0.6em;
+    }
+
+    .footer-designed-by {
+        margin-top: 1.5em;
+        margin-left: 0;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .footer-designed-by p{
+        margin: 0;
+        text-align: right;
+        margin-left: 4.9em;
+        font-size: .99em;
+    }
+
+    .nav-ul {
+        margin-left: 2.6em;
+        margin-top: -57px;
+        justify-content: space-between;
+        width: 87%;
+    }
+
+    .nav-li {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 320px) {
+        .guide {
+            max-width: 320px;
+        }
+
+        .h1-logo {
+            margin-left: -0.4em;
+        }
+
+        .burger-menu {
+            margin-left: 13.7em;
+            margin-top: -2px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2px;
+        }
+
+        .burger-span {
+        display: block;
+        height: 2px;
+        width: 1.13em;
+        background-color: white;
+        }
+
+        main {
+            margin-top: -45.5px;
+        }
+
+        .watch-animal-wrapper {
+            background-image: url(./assets/images/Panda-mobile.jpg);
+            background-position-x: 0;
+            background-position-y: 5em;
+            background-size: 100%;
+        }
+
+        .watch-animal {
+            height: 21.2em;
+        }
+
+        .orange-circle {
+            padding: 18.6%;
+            top: 8.6%;
+            left: 51%;
+        }
+
+        .watch-txt {
+            margin-left: 58%;
+            margin-top: 37.5%;
+            width: 4.4em;
+            font-size: 1.7em;
+            line-height: 79%;
+        }
+
+        .watch-txt span {
+            margin-left: -3px;
+        }
+
+        .watch-btn {
+            margin-top: 89.8%;
+        }
+
+        .backstage-wrapper {
+            background-image: url(./assets/images/flower-mobile.jpg);
+            padding-left: 0.55em;
+            background-position: right -3.65%;
+            margin-top: -24px;
+            padding-top: 2.68em;
+            padding-bottom: 1.4em;
+        }
+
+        .backstage-header {
+            font-size: 1.5em;
+            font-size: 1.5em;
+            margin-bottom: 0.4em;
+            margin-left: 0.1em;
+        }
+
+        .backstage-txt {
+            margin-top: 0;
+            margin-left: 0.24em;
+            margin-bottom: 1.2em;
+            width: 114%;
+        }
+
+        .pick-txt {
+            padding-bottom: 1.9em;
+        }
+
+        .pick-txt p {
+            margin-left: 3%;
+        }
+
+        .header-p {
+            margin-top: 0;
+            margin-bottom: -0.28em;
+            margin-left: 0.15em;
+        }
+
+        .p-one {
+            margin-left: 1em;
+            margin-top: 0.9em;
+            font-size: 1em;
+        }
+
+        .p-two {
+            font-size: 1em;
+            margin-left: 1.25em;
+            margin-top: 1.2em;
+            width: 92%;
+        }
+
+        .p-three, .p-two {
+            width: 93%;
+        }
+
+        .header-hiw {
+            margin-left: 6em;
+        }
+
+        .slider-btn-left, .slider-btn-right {
+            display: none;
+        }
+
+        .pets-slider {
+            margin-bottom: 1.2em;
+        }
+
+        .slider-frames {
+            row-gap: 1.2em;
+        }
+
+        .choose-favorite-btn {
+            margin-left: -0.5em;
+        }
+
+        .pets-wrapper {
+            padding-bottom: 2.4em;
+            padding-left: 0.6em;
+            margin-left: -0.45em;
+            background-image: url(./assets/images/palm-mobile.jpg), url(./assets/images/strelitzia-mobile.jpg);
+            background-position: left bottom, right 100.3%;
+            padding: 1.3em 0.6em 1.3em 0.85em;
+        }
+
+        .pick-wrapper {
+            padding: 1.3em 0.5em 1.3em 0.5em;
+        }
+
+        .pick-section {
+            padding: 0em 0 2.5em 0px;
+        }
+
+        .pick-txt {
+            padding-top: 1.2em;
+            padding-bottom: 1.3em;
+        }
+
+        .pick-txt p {
+            margin-left: 3%;
+            width: 92%;
+            text-align: center;
+            font-size: 1.125em;
+            margin-top: 0.63em;
+        }
+
+        .header-pick {
+            font-size: 1.5em;
+        }
+
+        .p-two, .p-three {
+            display: none;
+        }
+
+        .header-hiw {
+            font-size: 1.5em;
+            margin-left: 3.45em;
+        }
+
+        .img-container {
+            margin-left: 4.25em;
+            margin-bottom: 2.45em;
+            padding-top: 1.3em;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2.5em;
+            width: fit-content;
+        }
+
+        .img-container::before {
+            top: 12.125em;
+            left: 7.6em;
+            transform: rotate(84deg);
+        }
+
+        .img-container::after {
+            top: 28em;
+            left: 7.68em;
+            height: 63px;
+            width: 90px;
+            transform: rotate(84deg);
+        }
+
+        .img_text {
+            margin-top: 0.6em;
+        }
+
+        .image_three {
+            margin-top: -0.45em;
+        }
+
+        .testimonials-wrapper {
+            padding-top: 1.75em;
+            padding-bottom: 3.75em;
+            background-image: url(./assets/images/leaf-mobile.png);
+            background-position: right 106%;
+            padding-left: 0.5em;
+            padding-right: 0;
+        }
+
+        .header-testimonials {
+            font-size: 1.5em;
+            margin-left: 3.5em;
+        }
+
+        .comments {
+            padding: 1.2em 1em 1em 0em;
+            row-gap: 13px;
+            height: 381px;
+            overflow: hidden;
+            margin-bottom: 1.6em;
+        }
+
+        .comments-wrapper {
+            width: 18.9em;
+            height: 6.9em;
+        }
+
+        .comment-card {
+            width: 18.65em;
+            height: 6.75em;
+            padding: 8px 12px 8px 10px;
+        }
+
+        .comment-txt {
+            overflow: hidden;
+            max-height: 40%;
+        }
+
+        .testimonials-btn {
+            margin-left: 2em;
+        }
+
+        .footer_min {
+            display:none;
+        }
+
+        .footer-wrapper {
+           margin-left: 0;
+        }
+
+        .footer-mobile {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            padding: 0.42em 0 0 0;
+        }
+
+        .header-footer-mobile {
+            position: relative;
+            font-weight: 400;
+            font-size: 19.0145px;
+            line-height: 120%;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 0 auto;
+            margin-left: 5.05em;
+            margin-bottom: 1.5em;
+        }
+
+        .header-footer-mobile::before {
+            position: absolute;
+            content: '';
+            background-image: url(./assets/icons/bamboo.svg);
+            background-repeat: no-repeat;
+            height: 1em;
+            width: 1em;
+            top: -0.2em;
+            left: 3.7em;
+        }
+
+        .footer-links {
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 83%;
+            margin-left: 2em;
+        }
+
+        .nav-footer ul {
+            width: 86.5%;
+        }
+
+        .footer-btn {
+            margin-top: 1.25em;
+            margin-left: 0.6em;
+        }
+
+        .footer-designed-by {
+            margin-top: 1.5em;
+            margin-left: 0;
+            width: 100%;
+            height: fit-content;
+        }
+
+        .footer-designed-by p{
+            margin: 0;
+            text-align: right;
+            margin-left: 4.9em;
+            font-size: .99em;
+        }
+
+        .nav-ul {
+            margin-left: 2.6em;
+            margin-top: -57px;
+            justify-content: space-between;
+            width: 87%;
+        }
+
+        .nav-li {
+            margin-right: 0;
+        }
+}
+
+
+
